@@ -1,0 +1,241 @@
+.header {
+    list-style-type: none;
+    margin: 10px;
+    margin-left: -30px;
+    overflow: hidden;
+    margin-right: 16px;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    /*  */
+    display: flexbox; 
+  }
+  /* profile image desing css */
+  .picdes {
+    height: 32px;
+    border-radius: 50%;
+    }
+  
+  .headerli a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 5px 5px;
+    text-decoration: none;
+    /* To move right  */
+    float: right;
+  }
+  
+  .headerli a:hover {
+    text-decoration: underline;
+  }
+  
+  .container {
+    text-align: center;
+    margin: 100px;
+  }
+  
+  .search-area {
+    background: #fff;
+    display: flex;
+    border: 1px solid #dfe1e5;
+    box-shadow: none;
+    z-index: 3;
+    height: 44px;
+    margin: 0 auto;
+    margin-top: -77px;
+    width: 582px;
+    /* search background */
+    border-radius: 24px;
+  }
+  
+  .search-area:hover {
+    box-shadow: 0px -1px 19px -9px rgba(0,0,0,0.72);;
+  }
+  
+  .search {
+    flex: 1;
+    display: flex;
+    padding: 5px 8px 0 16px;
+    padding-left: 14px;
+  
+    }
+  
+  .search-img {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    margin-top: -5px;
+  }
+  
+  .search-img span {
+    color: #9aa0a6;
+    height: 20px;
+    width: 20px;
+    margin-top: 0px;
+    display: inline-block;
+    fill: currentColor;
+    line-height: 24px;
+    position: relative;
+  }
+  
+  .input-enter {
+    /* Input Background */
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    border-radius: 24px;
+  }
+  
+  .input-area {
+    color: transparent;
+    flex: 100%;
+    white-space: pre;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    display: block;
+    border-radius: 24px;
+  }
+  
+  .input {
+    /*Input Text Area*/
+    margin: 0;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    flex: 100%;
+    margin-top: -68px;
+    font: 16px arial, sans-serif;
+    line-height: 34px;
+    height: 34px !important;
+    text-rendering: auto;
+    letter-spacing: normal;
+    word-spacing: normal;
+    text-transform: none;
+    text-indent: 0px;
+    text-shadow: none;
+    text-align: start;
+    appearance: textfield;
+    cursor: text;
+    /* Search box input element color fix black to transparent */
+    border-color:transparent;
+  }
+  
+  .voice-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .googlesearch {
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    }
+  
+  .feelinglucky {
+    padding: 0 16px;
+    line-height: 27px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  
+  .footer {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* border: 1px solid #dfe1e5; */
+    /* border-top: 1px solid #dadce0; */
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    margin-left: -8px;
+    line-height: 10px;
+    /* list marker display none */
+    list-style-type: none;
+  
+  }
+  
+  .footerli {
+    float: left;
+  }
+  
+  .footerli a {
+    display: block;
+    /* float: right; */
+    color: #70757a;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin-left: 14px;
+    margin-right: -20px;
+  }
+  
+  .footerli a:hover {
+    text-decoration: underline;
+  }
+  .buttons{
+    /* Buttons move to center */
+  display: block;
+  text-align: -webkit-center;
+  }
+  /* Google Search Button desing */
+  .googlesearchbutton{
+    background-image: -webkite-linear-grandient-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  
+  }
+  .googlesearchbutton:hover{
+    border: 1px solid rgb(184, 184, 184);
+    -webkit-box-shadow: 0px -1px 19px -9px rgba(0,0,0,0.72); 
+  box-shadow: 0px -1px 19px -9px rgba(0,0,0,0.72);
+  }
+  
+  /* Google Feeling Luck Button desing */
+  .feelinglucky{
+    background-image: -webkite-linear-grandient-webkit-linear-gradient(top,#f5f5f5,#f1f1f1);
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5f6368;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+  }
+  .feelinglucky:hover{
+    border: 1px solid rgb(184, 184, 184);
+    -webkit-box-shadow: 0px -1px 19px -9px rgba(0,0,0,0.72); 
+  box-shadow: 0px -1px 19px -9px rgba(0,0,0,0.72);
+  }
+  
+ 
